@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import axios from './api/api-local';
+// import axios from './api/api-local';
+import axios from './api/api-online';
 import CreateProduct from './components/CreateProduct';
 import UpadateProduct from './components/UpadateProduct';
 
@@ -22,8 +23,8 @@ function App() {
     status: true
   });
   const getProduct = async () => {
-    let res = await axios.get("products");
-    // console.log(res.data);
+    let res = await axios.get("product");
+    console.log(res.data);
     setProducts(res.data);
   }
   useEffect(() => {
@@ -34,14 +35,14 @@ function App() {
 
   const handerDelete = async (id: any) => {
 
-    await axios.delete("products/" + id);
+    await axios.delete("product/" + id);
     getProduct();
   }
   const handerCreate = () => {
     getProduct();
   }
   const handerViewUpdate = async (id: any) => {
-    let res = await axios.get("products/" + id);
+    let res = await axios.get("product/" + id);
     setProduct(res.data);
   }
   return (

@@ -1,0 +1,4 @@
+1. render sản phẩm nếu chưa xong
+2. render các dữ liệu có thể lấy từ http://apixm.devmaster.vn/swagger/index.html
+3. Xây dựng thêm phần giỏ hàng - xử lý mua bán
+4. sử dụng link/navlink thay thế các thẻ a

@@ -1,0 +1,98 @@
+#banner {
+    margin-top: 8.875rem;
+    position: relative;
+}
+
+#banner .box-banner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#banner .logo-banner {
+    max-width: 146px;
+    margin-bottom: 0.75rem;
+}
+
+#banner h2 {
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 3rem;
+    font-family: 'Gotham-Ultra';
+}
+
+#contact {
+    background-color: #f3f3f3;
+    height: 640px;
+}
+
+
+
+/* sửa lại */
+#contact .container>div {
+    background-color: #fff;
+    padding: 6.625rem 0;
+    width: 100%;
+}
+
+#contact .contact-left {
+    display: flex;
+    justify-content: center;
+}
+
+#contact .contact-right h3 {
+    font-size: 1.875rem;
+    font-family: 'Gotham-Ultra';
+    color: #bd945f;
+    text-transform: uppercase;
+}
+
+#contact .input-group {}
+
+#contact input[type="text"] {
+    width: 33rem;
+    border: 3px #bd945f solid;
+    padding: 1rem 1.5rem;
+    outline-color: #bd945f;
+}
+
+/* Dùng 1 trong 2 cách outline-color */
+/* 
+#contact input[type="text"]:focus-visible {
+    outline-color: #bd945f;
+} */
+
+#contact h3 {
+    margin-bottom: 1.25rem;
+}
+
+#contact .input-group {
+    margin-bottom: 0.75rem;
+}
+
+#contact input[type="submit"] {
+    padding: 1.25rem 3rem;
+    color: #fff;
+    background-color: #bd945f;
+    border: none;
+}
+
+#contact .err {
+    color: red;
+    display: none;
+}
+
+/*  */
+#contact .container {
+    position: relative;
+}
+
+#contact .container>div {
+    position: absolute;
+    top: -3rem;
+}
