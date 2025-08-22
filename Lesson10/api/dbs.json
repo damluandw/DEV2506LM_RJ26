@@ -1,0 +1,32 @@
+{
+  "products": [
+    {
+      "id": "SP05",
+      "cid": "C03",
+      "name": "Sản phẩm 5",
+      "price": 30000,
+      "status": false
+    },
+    {
+      "id": "SP01",
+      "cid": "C02",
+      "name": "sản phẩm test",
+      "price": 12312312,
+      "status": true
+    }
+  ],
+  "category": [
+    {
+      "id": "C01",
+      "name": "Danh mục 1"
+    },
+    {
+      "id": "C02",
+      "name": "Danh mục 3"
+    },
+    {
+      "id": "C03",
+      "name": "Danh mục 3"
+    }
+  ]
+}
